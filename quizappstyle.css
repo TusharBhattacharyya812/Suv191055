@@ -60,7 +60,7 @@ input {
 #submit:hover {
     background-color: deeppink;
 }
-.showscore {
+#showscore {
     background-color: pink;
     margin-top: 3rem;
     padding: 3rem 4rem;
