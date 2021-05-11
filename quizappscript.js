@@ -93,12 +93,12 @@ questionCount++
 deselectAll();
 if (questionCount < quizDB.length){
     loadQuestion();
-}
-else {
+}else{
     showScore.innerHTML = `
     <h3>You scored ${score}/${quizDB.length}✌️</h3> 
        <button class="btn" onclick="location.reload()">Play Again</button>
        `;
+       showScore.classList.remove('scoreArea');
 }
 
 });
